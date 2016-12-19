@@ -1,8 +1,12 @@
 
 public class BankAccount {
 
-	public int balance;
+	private int balance;
 
+	public int getBalance(){
+		return balance;
+	}
+	
 	public void deposit(int i) {
 		// TODO Auto-generated method stub
 		balance += i;

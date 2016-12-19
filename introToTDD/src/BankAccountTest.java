@@ -8,10 +8,10 @@ public class BankAccountTest {
 	public void test() {
 		BankAccount acc = new BankAccount();
 		acc.deposit(50);
-		assertEquals(acc.balance, 50);
+		assertEquals(acc.getBalance(), 50);
 		
 		acc.withdraw(30);
-		assertEquals(acc.balance, 20);
+		assertEquals(acc.getBalance(), 20);
 	}
 
 }
