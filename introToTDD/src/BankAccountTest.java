@@ -9,6 +9,9 @@ public class BankAccountTest {
 		BankAccount acc = new BankAccount();
 		acc.deposit(50);
 		assertEquals(acc.balance, 50);
+		
+		acc.withdraw(30);
+		assertEquals(acc.balance, 20);
 	}
 
 }

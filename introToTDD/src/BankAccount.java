@@ -8,4 +8,9 @@ public class BankAccount {
 		balance += i;
 	}
 
+	public void withdraw(int i) {
+		// TODO Auto-generated method stub
+		balance -= i;
+	}
+
 }
